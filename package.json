@@ -1,0 +1,8 @@
+{
+  "name": "search-filter-library",
+  "version": "1.0.0",
+  "description": "Node.js Search and Filtering Utility Library",
+  "scripts": {},
+  "author": "ike10",
+  "license": "MIT"
+}
