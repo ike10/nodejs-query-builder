@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-search-library",
+  "name": "nodejs-query-builder",
   "version": "1.0.0",
-  "description": "A production-grade search and filtering utility library for Node.js",
+  "description": "node-query-builder is a powerful and flexible query building utility library for Node.js, designed to streamline the process of constructing complex queries for search and filtering operations.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
@@ -12,7 +12,8 @@
     "search",
     "filtering",
     "library",
-    "express"
+    "express",
+    "query"
   ],
   "author": "Oche Ike",
   "license": "MIT",
