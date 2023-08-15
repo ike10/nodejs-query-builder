@@ -1,8 +1,26 @@
 {
-  "name": "search-filter-library",
+  "name": "nodejs-search-library",
   "version": "1.0.0",
-  "description": "Node.js Search and Filtering Utility Library",
-  "scripts": {},
-  "author": "ike10",
-  "license": "MIT"
+  "description": "A production-grade search and filtering utility library for Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+
+  },
+  "keywords": [
+    "nodejs",
+    "search",
+    "filtering",
+    "library",
+    "express"
+  ],
+  "author": "Oche Ike",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.15.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
 }
