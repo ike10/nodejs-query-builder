@@ -33,7 +33,7 @@ console.log('Built Query:', JSON.stringify(query, null, 2));
 
 ### Express.js Integration
 ```javascript 
-    const express = require('express');
+const express = require('express');
 const { IndexingService, DateFilter, NumericFilter, SearchMiddleware } = require('nodejs-search-library');
 
 const app = express();
