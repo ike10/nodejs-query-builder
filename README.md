@@ -12,14 +12,14 @@ A production-grade search and filtering utility library for Node.js, designed to
 ## Installation
 
 ```bash
-npm install --save nodejs-search-library
+npm install --save nodejs-query-engine
 ```
 
 ## Usage
 ### Query Builder
 
 ```javascript
-const { QueryBuilder } = require('nodejs-search-library');
+const { QueryBuilder } = require('nodejs-query-engine');
 
 const queryBuilder = new QueryBuilder();
 const query = queryBuilder
@@ -34,7 +34,7 @@ console.log('Built Query:', JSON.stringify(query, null, 2));
 ### Express.js Integration
 ```javascript 
 const express = require('express');
-const { IndexingService, DateFilter, NumericFilter, SearchMiddleware } = require('nodejs-search-library');
+const { IndexingService, DateFilter, NumericFilter, SearchMiddleware } = require('nodejs-query-engine');
 
 const app = express();
 

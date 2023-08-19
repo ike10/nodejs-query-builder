@@ -1,11 +1,10 @@
 {
-  "name": "nodejs-query-builder",
+  "name": "nodejs-query-engine",
   "version": "1.0.0",
-  "description": "node-query-builder is a powerful and flexible query building utility library for Node.js, designed to streamline the process of constructing complex queries for search and filtering operations.",
+  "description": "node-query-engine is a powerful and flexible query building utility library for Node.js, designed to streamline the process of constructing complex queries for search and filtering operations.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
-
   },
   "keywords": [
     "nodejs",
