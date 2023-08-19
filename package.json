@@ -1,6 +1,6 @@
 {
   "name": "nodejs-query-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-query-engine is a powerful and flexible query building utility library for Node.js, designed to streamline the process of constructing complex queries for search and filtering operations.",
   "main": "src/index.js",
   "scripts": {
